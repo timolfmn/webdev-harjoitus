@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+.nav, ul{
+    margin:0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: black;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align:center;
+    font-size:1.1em;
+    font-weight:lighter;
+    border-bottom: 2px solid black;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(20, 20, 255, 0.3)
+}
+
+.main-header{
+    background-image: url("Images/background1.jpg");
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+.name {
+    text-align: center;
+    margin:0;
+    font-size: 4em;
+    font-family:'Eras Demi ITC';
+}
