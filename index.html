@@ -1,75 +1,71 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>The Bändi</title>
+        <title>The Generics</title>
         <meta name="description" content="sivun kuvaus">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <nav>
+        <header class="main-header">
+            <nav class="nav main-nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="store.html">STORE</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
-            <hr>
-            <h1>The Bändi</h1>
-            <button type="button">Get the album</button>
+            <h1 class="name name-large">The Generics</h1>
+            <div class="container">
+                <button class="btn btn-header" type="button">Get our latest album</button>
+            </div>
             <br>
             <br>
-            <button type="button">&#9658;</button>
-            <!-- Hanki taustakuva -->
+            <button class="btn btn-header btn-play" type="button">&#9658;</button>
         </header>
-        <section>
-            <h2>Tours</h2>
+        <section class="content-section container">
+            <h2 class="section-header">Tours</h2>
             <div>
-                <div>
-                    <strong>Jun 20</strong>
-                    &lt;&gt;
-                    <span>Helsinki</span>
-                    &lt;&gt;
-                    <span>Tori</span>
-                    &lt;&gt;
-                    <button type="button">BUY TICKETS</button>
-                    <hr>
-                    <strong>Jun 27</strong>
-                    &lt;&gt;
-                    <span>Berlin</span>
-                    &lt;&gt;
-                    <span>Arena</span>
-                    &lt;&gt;
-                    <button type="button">BUY TICKETS</button>
-                    <hr>
-                    <strong>Jul 4</strong>
-                    &lt;&gt;
-                    <span>London</span>
-                    &lt;&gt;
-                    <span>Stadium</span>
-                    &lt;&gt;
-                    <button type="button">BUY TICKETS</button>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">Jun 20</span>
+                    <span class="tour-item tour-city">Helsinki</span>
+                    <span class="tour-item tour-arena">Tori</span>
+                    <button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
+                </div>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">Jun 27</span>
+                    <span class="tour-item tour-city">Berlin</span>
+                    <span class="tour-item tour-arena">Arena</span>
+                    <button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
+                </div>
+                <div class="tour-row">
+                    <span class="tour-item tour-date">Jul 4</span>
+                    <span class="tour-item tour-city">London</span>
+                    <span class="tour-item tour-arena">Stadium</span>
+                    <button class="btn tour-item tour-btn btn-primary" type="button">BUY TICKETS</button>
                 </div>
             </div>
         </section>
-        <footer>
-            <h3>The Bändi</h3>
-            <ul>
-                <li>
-                    <a href="https://youtube.com" target="_blank">
-                        <img src="Images/YouTube Logo.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://spotify.com" target="_blank">
-                        <img src="Images/Spotify Logo.png">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://facebook.com" target="_blank">
-                        <img src="Images/Facebook Logo.png">
-                    </a>
-                </li>
-            </ul>
+        <footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="name">The Generics</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://youtube.com" target="_blank">
+                            <img src="Images/YouTube Logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://spotify.com" target="_blank">
+                            <img src="Images/Spotify Logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com" target="_blank">
+                            <img src="Images/Facebook Logo.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </footer>
     </body>
 </html>
